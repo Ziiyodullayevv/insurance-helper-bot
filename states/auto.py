@@ -7,3 +7,4 @@ class AutoInsurance(StatesGroup):
     city = State()              # Shahar
     street_address = State()    # Ko'cha raqami va nomi
     zip_code = State()          # Pochta indeksi
+    confirm = State()  
